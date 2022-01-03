@@ -1,6 +1,6 @@
 body{
-    width: 80%;
-    margin: auto;
+    width: auto;
+    height: auto;
 }
 header{
     display: flex;
@@ -11,13 +11,18 @@ header{
     padding-right: 15%;
     margin-left: -15%;
     padding-left: 15%;
+    z-index: 3;
+    width: 80%;
+    margin: auto;
 }
 .logonav{
     width: 268px;
     height: 68px;
 }
 .navbar{
-    width: 750px;
+    width: 80%;
+    margin: auto;
+    padding-right: 100px;
     
 }
 .navbar ul {
@@ -54,7 +59,9 @@ span.navigationSpace {
     top: 35px;
     border: 0.1px rgba(39, 39, 39, 0.486);
     border-style:none solid solid solid;
+
 }
+
 .dropdown li + li {
     margin-top: 10px;
 }
@@ -71,7 +78,7 @@ span.navigationSpace {
 }
 
 .logo{
-    padding-left: 500px;
+    
     margin: 30px;
 }
 
@@ -81,7 +88,10 @@ span.navigationSpace {
 
 
 }
-
+.section{
+    width: 80%;
+    margin: auto;
+}
 .section h2 {
     text-align: center;
     
@@ -120,8 +130,9 @@ span.navigationSpace {
 }
 .section1{
     display: flex;
-    width: 100%;
-    height: 320px;
+    width: 80%;
+    margin: auto;
+    height: auto;
     flex-wrap: wrap;
 }
 
@@ -151,9 +162,9 @@ span.navigationSpace {
     font-size: 16px;
     padding-left: 0px;
     margin-left: 15px;
-    display: block;
     color: aliceblue;
-    font-size: 22px;;
+    font-size: 22px;
+    display: block;
     
 }
 .selec2 {
@@ -164,9 +175,9 @@ span.navigationSpace {
     padding-left: 0px;
     margin-left: 15px;
     margin-top: 60px;
-    display: block;
     color: aliceblue;
     font-size: 22px;
+    display: block;
 }
 .selec3 {
     margin-top: 25px;
@@ -177,15 +188,18 @@ span.navigationSpace {
     margin-left: 15px;
     color: aliceblue;
     font-size: 22px;
+    display: block;
 }
 .globale{
     display: flex;
     background-color: rgb(255, 255, 255);
     margin-top: 120px ;
     margin-bottom: 80px;
+    width: 80%;
+    margin: auto;
 }
 .part1{
-    width: 500px;
+    
     background-color: rgb(255, 255, 255);
 }
 .part1 p{
@@ -216,6 +230,7 @@ span.navigationSpace {
     padding: 20px;
     filter: grayscale(15%);
 }
+
 .improve p{
     text-align: center;
     padding-left: 250px;
@@ -236,6 +251,8 @@ span.navigationSpace {
 .ville{
     display: flex;
     flex-wrap: wrap;
+    width:80%;
+    margin: auto;
 }
 .ville img {
     border-top-left-radius: 5%;
@@ -297,14 +314,13 @@ span.navigationSpace {
     display: flex;
     height: 600px;
     background-color: rgb(176, 217, 245);
-    margin-left: -150px;
-    width: 1364px;
+    height: 100%;
 }
 .parr1{
-
-    width: 1200px;
     background-color: rgb(176, 217, 245);
     overflow: hidden;
+    display:flexbox;
+    flex-wrap: wrap;
 }
 .parr1 p{
     font-size: 35px;
@@ -330,6 +346,7 @@ span.navigationSpace {
 .parr2{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 120px;
 }
 
 
@@ -374,6 +391,7 @@ span.navigationSpace {
 
 .artii2{
     margin: 30px;
+    margin-top: -20px;
     height: 250px;
     width: 220px;
     background-color: rgb(255, 255, 255);
@@ -415,8 +433,8 @@ footer{
     background-color: rgb(255, 255, 255);
     border-style: solid none none none;
     border: 2px   rgb(199, 48, 48);
-    width: 1360px;
-   margin-left: -150px;
+    width: 100%;
+  
 }
 footer a{   
     text-decoration: none;
